@@ -1,0 +1,57 @@
+Quit#
+{
+	type : button;
+	orig : (2,4);
+	value : "Exit";
+	color : |GREEN,bGREEN|;
+	fontColor : |BLUE,RED,GREEN,bGREEN|;
+}
+
+redQ#
+{
+	type:
+		button;
+	orig:
+		(13,4);
+	fontColor:
+		|<white>, HUE, bRED|;
+	color:
+		|RED,bRED|;
+}
+
+tfield#
+{
+	type:
+		textfield;
+	orig:
+		(2,10);
+	color:
+		|BLUE|;
+	fontColor:
+		|<white>|;
+}
+
+tfield2#
+{
+	type:
+		textnode;
+	orig:
+		(2,14);
+	fontColor:
+		|1,2,3,4,5,6,7,8,9,10,11,12,13|;
+		((&)1,2,3,4,5,6,7,8,9,10,11,12,13);
+	value:
+		"Testing:\n\n
+		\tone,\n
+		\ttwo,\n
+		\tthree,\n
+		\tfour.";
+}
+
+test#
+{
+	type:
+		textnode;
+	orig:
+		(?tfield~orig.x,|?tfield~orig.y,2|);
+}

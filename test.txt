@@ -1,0 +1,31 @@
+Quit
+{
+	type:
+		button;
+	orig:
+		(0,5);
+	dimensions:
+		(10,5);
+	value:
+		$name;
+	color:
+		|GREEN,bGREEN|;
+	fontColor:
+		|BLUE,RED,GREEN,bGREEN|;
+}
+
+rQuit
+{
+	type:
+		button;
+	orig:
+		(2,5);
+	dimensions:
+		(10,5);
+	value:
+		Quit;
+	color:
+		|RED,bRED|;
+	fontColor:
+		|<white>, HUE, bRED|;
+}
